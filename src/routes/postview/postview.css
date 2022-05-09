@@ -1,0 +1,154 @@
+.post-view-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-view {
+    width: 80%;
+    min-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.post-view-title {
+    border-bottom: 1px solid #ff8a00;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.post-view-body {
+    border-bottom: 1px solid #ff8a00;
+    padding: 32px;
+    font-size: 20px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.post-view-body p {
+    word-wrap: break-word;
+    width: 100%;
+
+}
+
+.post-view-footer {
+    padding: 7px;
+    display: flex;
+}
+
+.post-view-footer .date {
+    margin-left: auto;
+}
+
+.post-view-loading {
+    margin: 100px auto;
+}
+
+.make-comment {
+    width: 60%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.name-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+
+
+}
+
+.make-comment input {
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    padding: 6px;
+
+}
+
+.comment-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+
+
+}
+
+.name-label {
+    width: 20%;
+}
+
+.name-input {
+    width: 80%;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.comment-label {
+    width: 20%;
+}
+
+.comment-input {
+    width: 80%;
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+
+
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    min-width: 400px;
+
+}
+
+.submit-comment {
+    margin: auto;
+    width: 200px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    transition: box-shadow 0.2s ease-in-out;
+    font-size: 16px;
+}
+
+.submit-comment:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.submit-comment:active {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.make-comment-loading {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.alert-container {
+    top: 50%;
+    position: fixed;
+}

@@ -1,0 +1,11 @@
+.posts {
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    max-width: 1100px;
+    flex-wrap: wrap;
+}
+
+.posts-loading {
+    margin: auto;
+}

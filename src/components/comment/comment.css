@@ -1,0 +1,28 @@
+.comment {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-author h3 {
+    border-bottom: 1px solid #ff8a00;
+    width: fit-content;
+    margin-bottom: 8px;
+}
+
+.comment-body {
+    padding-left: 8px;
+
+}
+
+.comment-footer {
+    display: flex;
+}
+
+.comment-date {
+    margin-left: auto;
+    border-bottom: 1px solid #ff8a00;
+    margin-top: 6px;
+}

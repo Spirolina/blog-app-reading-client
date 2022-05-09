@@ -1,0 +1,27 @@
+.navbar {
+    border-bottom: 2px solid #ff8a00;
+    display: flex;
+    padding: 8px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    height: 40px;
+}
+
+.active-navbar {
+    border-bottom: 2px solid #ff8a00;
+    padding: 8px;
+    transform: translateY(10px);
+    background-color: white;
+}
+
+.buttons {
+    display: flex;
+    margin: auto;
+}
+
+.buttons a {
+    font-size: 18px;
+    color: black;
+    margin: 0 16px 0 16px;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
