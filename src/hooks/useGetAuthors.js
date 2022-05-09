@@ -9,7 +9,7 @@ export const useGetAuthors = () => {
     useEffect(() => {
         setLoading(true);
         axios
-            .get(`${process.env.REACT_APP_API_HOST}api/authors`)
+            .get(`${process.env.REACT_APP_API_HOST}/api/authors`)
             .then(res => {
                 if (res.data.errors) {
                     setErrors(res.data.errors);

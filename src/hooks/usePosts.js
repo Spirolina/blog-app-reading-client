@@ -9,7 +9,7 @@ export const usePosts = () => {
         if (getStatus) {
             setLoading(true);
             axios
-                .get(`${process.env.REACT_APP_API_HOST}api/dashboard`)
+                .get(`${process.env.REACT_APP_API_HOST}/api/dashboard`)
                 .then(res => {
                     setPosts(res.data.posts);
                     setLoading(false);

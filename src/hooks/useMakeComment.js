@@ -15,7 +15,7 @@ export const useMakeComment = () => {
         if ( applyStatus ) {
             setLoading(true);
             axios
-                .post(`${process.env.REACT_APP_API_HOST}api/dashboard/${postId}`, {
+                .post(`${process.env.REACT_APP_API_HOST}/api/dashboard/${postId}`, {
                     commentor,
                     content: comment
                 })

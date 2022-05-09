@@ -10,7 +10,7 @@ export const useSinglePost = () => {
         if (getStatus && id) {
             setLoading(true);
             axios
-                .get(`${process.env.REACT_APP_API_HOST}api/dashboard/${id}`)
+                .get(`${process.env.REACT_APP_API_HOST}/api/dashboard/${id}`)
                 .then(res => {
                     setPost(res.data.post);
                     setLoading(false);
