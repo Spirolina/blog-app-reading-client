@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Spirolina/blog-app-reading-client.io/static/css/main.66456820.css",
+    "main.js": "/Spirolina/blog-app-reading-client.io/static/js/main.bec1c1b3.js",
+    "index.html": "/Spirolina/blog-app-reading-client.io/index.html",
+    "main.66456820.css.map": "/Spirolina/blog-app-reading-client.io/static/css/main.66456820.css.map",
+    "main.bec1c1b3.js.map": "/Spirolina/blog-app-reading-client.io/static/js/main.bec1c1b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66456820.css",
+    "static/js/main.bec1c1b3.js"
+  ]
+}
