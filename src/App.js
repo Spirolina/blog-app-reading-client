@@ -13,11 +13,11 @@ import { PostView } from './routes/postview/PostView';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/blog-app-reading-client'>
         <Navbar />
       
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route index path='/' element={<Home />} />
           <Route path='posts' element={<Posts />} />
           <Route path='posts/:id' element={<PostView />} />
           <Route path='authors' element={<Authors />} />
